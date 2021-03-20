@@ -24,5 +24,5 @@ while True:
     if not var:
         continue
 
-    writeNumber(var)
+    writeNumber(int(var))
     number = readNumber()
